@@ -1,0 +1,40 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="https://unpkg.com/matter-js@0.14.2/build/matter.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD0iOZzqTe22qSj8HnmT8_6YGXys_R2B-Y",
+    authDomain: "world-canvas-bdeac.firebaseapp.com",
+    databaseURL: "https://world-canvas-bdeac.firebaseio.com",
+    projectId: "world-canvas-bdeac",
+    storageBucket: "world-canvas-bdeac.appspot.com",
+    messagingSenderId: "241697226737",
+    appId: "1:241697226737:web:67ea46d661e1d065b28e50"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    
+  </head>
+  <body>
+  <script src="sketch.js"></script>
+  </body>
+  <body>
+  <div id = "canvasContainer"></div>
+    <p>
+      <button id = "SaveButton">Save</buttonID>
+    </p>
+</body>
+</html>
